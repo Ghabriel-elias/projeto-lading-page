@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+body {
+  background-image: url(./imagens/backgroundLp.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  min-height: 100vh; 
+  min-width: 100%;
+}
+.container-fluid {
+  background-color: #13121280;
+  max-width: 350px; 
+  min-width: 34%;
+}
+.img{
+  width: 45%; 
+  height: 70%;
+}
+.card {
+  background-color: transparent;
+  border: 0;
+}
+.card-title{
+  margin-top: 8px;
+}
+.checkbox{
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  gap: 0px 15px;
+}
